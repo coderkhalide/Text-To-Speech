@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Piedra&display=swap');
+.wrap {
+    box-shadow: 0px -1px 82px 1px #bbb1b1;
+    border: 1px solid #d0d0d0;
+    display: block;
+    margin: 50px 0px;
+}
+.header-text {
+    padding: 15px 0px;
+    font-family: 'Piedra', cursive;
+    margin: 0px;
+}
+.container {
+    padding: 0px;
+}
+.padding{
+    padding: 15px;
+}
+.padding-20px{
+    padding: 20px;
+}
+#speak{
+    color: #000;
+    font-weight: bold;
+    font-family: 'Farsan', cursive;
+}
+#message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.footer{
+    justify-content: end;
+}
+.footer-text{
+    font-family: 'Farsan', cursive;
+    font-size: 17px;
+    text-align: end;
+}
+.footer-text a{
+    font-family: 'Piedra', cursive;
+    font-size: 15px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to speech by khalide saifullah (V:1.0)</title>
+    <link rel="shortcut icon" href="include/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="include/materialize.min.css">
+    <link rel="stylesheet" href="include/style.css">
+
+    <script src="include/app.js"></script>
+    <script src="include/jquery.min.js"></script>
+    <script src="include/materialize.min.js"></script>    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrap">  
+        <h1 class="header-text lime accent-2 center">Text to Speech</h1>
+        <form class="col s8 offset-s2 padding">
+            <div class="row">
+
+                <div class="input-field col s12">
+                    <label>Choose voice</label>
+                    <div class="padding-20px"></div>
+                    <select class="browser-default" id="voices"></select>
+                </div>
+                <div class="col s6">
+                    <label>Rate</label>
+                    <p class="range-field">
+                        <input type="range" id="rate" min="1" max="100" value="10" />
+                    </p>
+                </div>
+                <div class="col s6">
+                    <label>Pitch</label>
+                    <p class="range-field">
+                        <input type="range" id="pitch" min="0" max="4" value="1" />
+                    </p>
+                </div>
+                <div class="col s12">
+                    <label>Volume</label>
+                    <p class="range-field">
+                        <input type="range" id="volume" min="0" max="10" value="9" />
+                    </p>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label>Write message</label>
+                </div> 
+            </div>
+            
+            
+            <a href="#" id="speak" class="waves-effect waves-light btn lime accent-2">Speak</a>
+        </form> 
+        </div>   
+    </div>
+
+    <div class="footer padding">
+        <p class="footer-text">JS Fun-project: #1 by <a href="https://facebook.com/khalide.saifullah" target="_blank">Khalide Saifullah</a></p>
+    </div>
+</body>
+</html>
